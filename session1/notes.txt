@@ -1,0 +1,2 @@
+-- Elements ==> block elements ==> h1:h6 , p
+                inline Elements ==> span , a , img
