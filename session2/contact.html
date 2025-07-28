@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form autocomplete="off"  action="index.html" method="post">
+        <label for="firstName">First Name</label>
+        <input name="firstName" id="firstName" required >
+        <label>last Name</label>
+        <input type="text" id="firstName"  name="lastName" autofocus autocomplete="off" value="">
+        <label for="">Email</label>
+        <!-- <input  name="userEmail"> -->
+        <input type="email" autocomplete="off"  name="userEmail" >
+
+        <br>
+
+        <input type="password" pattern=""
+         placeholder="enter your password"  >
+
+
+        <input type="text" value="Alex" name="shippingArea" disabled>
+        <input type="text" value="Alex" name="shippingArea" readonly>
+
+        <input type="number" placeholder="age" step="10">
+
+
+         <input type="text" required id="country_code" name="country_code"
+  pattern="[A-Za-z]{3,5}" title="message........">
+
+        <br>
+  <label>Gender</label>
+  <input type="radio" name="gender" value="M" checked><label>Male</label>
+  <input type="radio" name="gender" value="F"><span>Female</span>
+
+
+  <label>Courses</label>
+  <input type="checkbox" name="courses" value="html"><label>HTML</label>
+  <input type="checkbox" name="courses" value="css"><label>CSS</label>
+  <input type="checkbox" name="courses" value="js"><label>Js</label>
+  <input type="checkbox" name="courses" value="bootstrap"><label>Bootstrap</label>
+
+
+  <!-- courses=on&courses=on&courses=on
+  courses=html&courses=css&courses=js -->
+        <!-- nouran@email.com -->
+        <br>
+        <!-- <label>Track</label> -->
+        <select multiple name="track" title="enter your track">
+            <option disabled selected>--- choose your track --</option>
+            <option value="fr">Frontend</option>
+            <option value="bk">Backend</option>
+            <option value="mo" >موبيل</option>
+            <option value="nt">network</option>
+        </select>
+
+        <input type="file" multiple>
+
+        <!-- track=موبيل -->
+
+        <textarea name="" cols="50" rows="3" id=""></textarea>
+
+        <!-- value , max , min , step ==> search -->
+        <input type="range" name="range">
+
+        <input type="date">
+        <input type="datetime-local">
+        <input type="month">
+
+        <button>Submit</button>
+        <input type="button" value="click me">
+        <button>click me</button>
+        <input type="reset">
+        <input type="submit">
+        <!-- <a href="index.html">index page</a> -->
+    </form>
+
+    <!-- firstName=ertyujk&lastName=&userEmail=&shippingArea=Alex&country_code=adsdf&gender=M&range=50 -->
+
+</body>
+
+</html>
