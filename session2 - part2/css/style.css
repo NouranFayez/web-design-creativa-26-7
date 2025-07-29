@@ -1,0 +1,83 @@
+.text-gray {
+    color: gray;
+}
+
+h1 {
+    color: green;
+}
+
+#h1-element {
+    color: teal;
+}
+
+.div-style {
+    background-color: lightgrey;
+    /* padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding: 2%;
+    padding: 2% 3% 4% 5%;
+    padding: 2%;
+    padding: 2% 4%; */
+    padding: 2% 5% 3%;
+    width: 40%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 3% auto;
+    border-top-color: red;
+    border-top-width: 27px;
+    border-top-style: solid;
+    color: teal;
+    border: 3px solid goldenrod;
+        /* margin-inline: 10px 40px; */
+            color: teal;
+    border: 25px solid goldenrod;
+    /* margin-inline: 10px 40px; */
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+a{
+    display: inline-block;
+    padding: 2%;
+    background: black;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+.link-style{
+    display: inline-block;
+    padding: 2%;
+    background: black;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+.div-style a{
+    display: inline-block;
+    padding: 2%;
+    background: black;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.div-style input{
+        padding: 4%;
+    font-size: 30px;
+    width: 85%;
+    border: none;
+    margin-top: 7%;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+
+/*border==>  style , width , color */
+
+/* display ==> block , inline , inline , flex , none */
