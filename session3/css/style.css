@@ -1,0 +1,127 @@
+/* Reset style */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+/* global style */
+
+
+.container{
+       width: 80%;
+    margin: auto;
+}
+.bg-black{
+    background-color: rgb(42, 42, 42);
+}
+
+.bg-light{
+    background-color: rgb(232, 232, 232);
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+.card{
+    width: 30%;
+    /* border: solid 2px lightgray; */
+    /* margin-left: 4%; */
+    /* box-shadow ==> offset-x offset-y blur spread color */
+
+       box-shadow: 0px 0px 11px 5px lightgray;
+       /* display: inline-block; */
+       background-color: white;
+       float: left;
+}
+.card img {
+    width: 100%;
+}
+
+.card .card-body{
+    padding: 5%;
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+.btn-transparent{
+        padding: 1% 2%;
+    background: transparent;
+   
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 24px;
+}
+
+
+/* custom style */
+
+ nav{
+        padding: 2% 0%;
+ }
+
+nav ul {
+    width: 37%;
+}
+ nav li{
+    margin-left: 3%;
+ }
+
+
+.bg-img{
+    background-image: url(../images/istockphoto-517188688-1024x1024.jpg);
+    background-repeat: no-repeat;
+    /* height: 700px; */
+    background-color: black;
+    /* containe , cover */
+    background-size: 100% 100%;
+    /* background-position==> search */
+    /* height: 400px; */
+} 
+
+#blogs-section{
+    padding: 6% 0%;
+}
+
+#blogs-section h2{
+    margin-bottom: 4%;
+}
+
+.custom-margin{
+    margin: 0 5%;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.577);
+    height: 100%;
+        padding: 5% 0;
+}
+
+
