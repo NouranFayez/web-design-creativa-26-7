@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.custom-section {
+    height: 700px;
+}
+
+.bg-light {
+    background-color: rgb(232, 230, 230);
+}
+
+.bg-teal {
+    background-color: teal;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-gold {
+    background-color: goldenrod;
+}
+.bg-dark{
+    background-color: black;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.text-white{
+    color: white;
+}
+.custom-padding{
+    padding: 5% 0;
+}
+.position-relative{
+    position: relative;
+}
+
+/* custom style */
+header {
+    background-color: blue;
+    padding: 2%;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+}
+nav ul {
+    width: 50%;
+    font-size: 20px;
+}
+.icon-circle {
+    /* text-align: center; */
+    width: 50px;
+    height: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    border-radius: 50%;
+    font-size: 30px;
+    /* padding-top: 1%; */
+    /* line-height: 50px; */
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 25px;
+    /* right: 10%; */
+    left: 92%;
+}
+
+.card{
+    width: 50%;
+    background-color: white;
+    /* margin-top: 4%; */
+    position: relative;
+    
+}
+.card a{
+    background-color: white;
+    display: inline-block;
+    padding: 1%;
+    font-size: 25px;
+    position: absolute;
+    left: 10px ;
+    top: 10px;
+    z-index: 1;
+}
+.card-body{
+    padding: 2%;
+}
+.card-body h2:hover{
+    color: red;
+    font-weight: bold;
+    background-color: lightblue;
+}
+.card:hover p{
+    background-color: aqua;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.625);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    display: none;
+}
+.card:hover .overlay{
+    display: block;
+}
+
+/* position ==> fixed , sticky , relative , absolute , static(default) */
+/* top , left , right , bottom , z-index */
+
+/* display : inline-block , block , flex , none */
