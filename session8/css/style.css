@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global style */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.w-50 {
+    width: 40%;
+}
+
+/* custom style */
+.bg-img {
+    background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=);
+    /* height: 600px; */
+    background-size: 77% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+form {
+    width: 50%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+.custom-card {
+    background-color: goldenrod;
+    color: white;
+    padding: 2%;
+}
+
+.box {
+    width: 47%;
+    padding: 7% 3%;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+.animation-card {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    animation-name: changeBgColor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite ;
+    animation-iteration-count: 2 ;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;
+    /* animation-fill-mode: ==> search ; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes changeBgColor {
+    /* from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: maroon;
+    } */
+
+    0% {
+    }
+    
+    25% {
+        transform: translateX(300px);
+        border: 5px solid black;
+        
+    }
+    
+    50% {
+        transform: translate(300px , 300px) rotate(90deg);
+
+    }
+
+    75% {
+        transform: translate(0px , 300px);
+        border-radius: 50%;
+    }
+
+    100% {
+
+    }
+}
+
+
+/* writing-mode  ==> search*/
