@@ -1,0 +1,70 @@
+/* rule ==> @media 
+type ==> all ,  screen , speetch , print
+condition ==> max-width , min-width , range */
+
+/* 390 */
+
+
+/* 0 : 767.98 */
+@media (max-width: 767.98px) { 
+.aside-left {
+    width: 100%;
+}
+.aside-right{
+    width: 60%;
+}
+.card-lg{
+    background-color: goldenrod;
+    
+}
+.d-flex{
+    justify-content: center;
+}
+.hidden-element{
+    display: block;
+}
+ }
+
+
+/* 0 : 400 */
+@media (max-width:400px){
+.aside-left , .aside-right{
+    width: 100%;
+}
+.w-48 {
+    width: 100%;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+.card-lg{
+    background-color: lightblue;
+}
+.d-none{
+    display: none;
+}
+
+
+}
+
+@media (min-width:800px){
+    .aside-left{
+        background-color: teal;
+        color: white;
+    }
+}
+
+@media (min-width:500px) and (max-width:750px){
+    .aside-right{
+        background-color: blue;
+    }
+}
+
+
+
+@media print{
+    .d-none-print{
+        display: none;
+    }
+}
+
