@@ -1,0 +1,168 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    background-color: #CCCCCC;
+    padding: 2%;
+    width: 35%;
+}
+.card h3{
+    color: blue;
+}
+.card h3:hover{
+    color: red;
+}
+.card:hover{
+    background-color: lightblue;
+}
+
+/* Nested css selector */
+
+.card{
+    background-color: #CCCCCC;
+    padding: 2%;
+    width: 35%;
+    h3{
+        color: blue;
+        &:hover{
+            color: red;
+        }
+    }
+    &:hover{
+        background-color: lightblue;
+    }
+}
+
+
+h3::first-letter{
+    font-size: 45px;
+    color: red;
+}
+h2::first-line{
+    color: blue;
+}
+
+::selection{
+   background-color: teal;
+   color: white; 
+}
+::placeholder{
+    color: blue;
+}
+
+h1::before{
+   content: "Web Design";
+    background: lightblue;
+    padding: 3%;
+    display: inline-block;
+
+}
+h1{
+    background-color: aquamarine;
+    position: relative;
+}
+
+h1::after{
+    content: "";
+     width: 0; 
+  height: 0; 
+
+  border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    /* border-bottom: 20px solid black; */
+    border-top: 20px solid green;
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+}
+
+h4::before{
+    content: "\f015";
+    font-family: "Font Awesome 7 Free";
+}
+.prespective{
+    perspective: 1000px;
+}
+.transform-3d{
+    width: 30%;
+    height: 200px;
+    background-color: teal;
+    color: white;
+    padding: 2%;
+    margin: 4% auto;
+    font-size: 25px;
+    transition: 2s;
+}
+
+.transform-3d:hover{
+    transform: rotateY(180deg);
+}
+
+.flip-card{
+     height: 200px;
+    width: 30%;
+}
+
+.card-body{
+    height: 100%;
+    position: relative;
+    transition: 2s ;
+    transform-style: preserve-3d;
+}
+
+
+.card-front , .card-back{
+    height: 100%;
+    font-size: 30px;
+    padding: 2%;
+    color: white;
+    transition: 2s ;
+}
+
+.bg-teal{
+    background-color: teal;
+
+}
+.bg-gold{
+    background-color: goldenrod;
+}
+.card-front{
+    backface-visibility: hidden;
+}
+
+
+.card-back{
+    position: absolute;
+    backface-visibility: hidden;
+    top: 0;
+    width: 100%;
+    transform: rotateY(180deg);
+}
+
+/* .card-front:hover{
+    transform: rotateY(180deg);
+} */
+
+
+.flip-card:hover .card-body{
+    transform: rotateY(180deg);
+}
+
+.element:hover::before{
+    
+}
+
+/* attributes css selectors */
+/* combinators css selectors */
+/* direction property */
