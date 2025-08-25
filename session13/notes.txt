@@ -1,0 +1,6 @@
+-- operators ==> Mathmatical operators ==> + - / * ** % ++ --
+                 Assignment Operators ==> += -= /= *= **= %=
+                 comparison operator ==> > , >= < <= == === != !==
+                 unary operator ==> typeof , instanceof
+                 logical operator ==> && || !
+                 ternary operator
