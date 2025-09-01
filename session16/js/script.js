@@ -46,12 +46,30 @@
 // h1.classList.toggle("border-primary")
 
 
-var btns = document.getElementsByTagName('button')
-console.log(btns)
+// var btns = document.getElementsByTagName('button')
+// console.log(btns)
 
-function handleImgChange() {
-    var img = 
-    document.getElementById('img_id')
-    console.log(img.src)
-    img.src = 'images/2.jpg'
-}
+// function handleImgChange() {
+//     var img = 
+//     document.getElementById('img_id')
+//     console.log(img.src)
+//     img.src = 'images/2.jpg'
+// }
+
+
+var inputElement = document.querySelector('#userName')
+
+inputElement.addEventListener('input' , (e)=>{
+    // console.log('typing')
+    // console.log(e)
+    e.target.nextElementSibling.innerText = inputElement.value
+})
+
+
+var userForm = document.getElementById('user-form')
+userForm.addEventListener("submit" , (e)=>{
+    e.preventDefault()
+    // console.log(e)
+    console.log(e.target.elements.userName.value)
+    console.log(e.target.elements.userEmail.value)
+})
