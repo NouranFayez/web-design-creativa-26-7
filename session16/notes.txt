@@ -1,0 +1,22 @@
+-- string Methods ==> replace()
+                      replaceAll()
+                      startsWith()
+                      endsWith()
+                      slice()
+                      trim()
+                      indexof()
+
+-- number Methods ==> Number()
+                      parseInt() 20.25
+                      parseFloat() 20.25
+                      isNan()
+                      Math.random()
+                      Math.floor()
+                      Math.ceil()
+                      Math.round()
+                      Math.min()
+                      Math.max()
+                      Math.trunc()
+                      Math.abs()
+
+                                       
