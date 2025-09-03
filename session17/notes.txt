@@ -1,0 +1,6 @@
+let const var 
+owl carousel / swiper/ slick js plugins
+scroll on div / browser 
+createElement()
+localstorage
+
