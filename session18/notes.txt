@@ -1,0 +1,8 @@
+-scroll on window
+- form validation
+date()
+--setTimeOut
+-setInterval
+localstorage
+json.parse()
+json.stringfy()
